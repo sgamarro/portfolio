@@ -1,0 +1,42 @@
+body{
+    
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0.5) 50%, rgba(4, 4, 5, 0.5) 10%),url(images/fakurian-design-VbC-EiOTDqA-unsplash.jpg);
+  background-size: cover;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+.description{
+   
+    text-align: right;
+    font-size: 30px;
+}
+.profile{
+    margin-left: 50px;
+    margin-right: 300px;
+}
+.profile img{
+    width: 400px;
+    height: 400px;
+    
+}
+nav{
+    background-image: linear-gradient(to left,#A7A6AC , #4F4F56);
+    padding: 20px;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Coda', cursive;
+    color:rgb(36, 36, 36);
+    margin-right: 10px;
+   font-size: 17px;
+}
+.name{
+    font-family: 'Arizonia', cursive;
+    font-size: 70px;
+}
