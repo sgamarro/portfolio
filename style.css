@@ -2,14 +2,13 @@ body{
     margin:0;
   background:url(images/vackground-agUC-v_D1iI-unsplash.jpg);
   background-size: cover;
- 
+  background-position: fixed; 
 }
 .container{
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
     margin-left: 100px;
 }
 .description{
@@ -86,13 +85,4 @@ nav a:hover{
 .name{
     font-family: 'Arizonia', cursive;
     font-size: 70px;
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .description .name{
-        margin-top: 200px ;
-    }
-    .profile{
-        margin-top: 200px;
-    }
-    
 }
