@@ -89,6 +89,11 @@ width:100%;
     margin:150px;
     color:#f1f1ff;
 }
+.About-me{
+    font-size: 27px;
+    text-align: center;
+    margin: 64px;
+}
 .title{
     font-family: 'Arizonia', cursive;
     font-size: 90px; 
