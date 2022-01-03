@@ -107,3 +107,12 @@ width:100%;
 .Projects-content{
     margin:150px;
 }
+.About-content h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+.About-content li{
+    line-height: 40px;
+    font-size: 25px;
+    list-style: none;
+}
