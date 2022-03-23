@@ -31,13 +31,12 @@
         <a href="#Home">&#60;Home&#62;</a>
         <a href="#About">&#60;About&#62;</a>
         <a href="#Projects">&#60;Projects&#62;</a>
-        <a href="#">&#60;Contact&#62;</a>
+        <a href="#Contact">&#60;Contact&#62;</a>
     </nav>
     <div class="symbols">
-        <a href="https://github.com/sgamarro" target="_blank"><img src="icons/287583_github_icon.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/sebastian-gamarro-974462235/"><img src="icons/287697_linkedin_icon.png"
-                alt=""></a>
-        <img src="icons/1147408_address book_circle_contacts_email_gmail_icon.png" alt="">
+        <a href="https://github.com/sgamarro" target="_blank" class="fa-brands fa-github"></a>
+        <a href="https://www.linkedin.com/in/sebastian-gamarro-974462235/" class="fa-brands fa-linkedin"></a>
+        
     </div>
     <div id="Home">
         <div class="profile-container">
@@ -52,7 +51,7 @@
     </div>
     <div id="About">
         <div class="About-content">
-            <h1 class="about-title">&#60;About&#62;</h1>
+            <h1 class="about-title">&#60;About /&#62;</h1>
             <p class="About-me">
                 I am a student in Colorado, from Guatemala, always looking for to expand my knowlegde,
                 I am bilingual, I have experience in construction, automotive service
@@ -62,7 +61,7 @@
             </p>
         </div>
         <div class="skills">
-            <h3>&#60;skills&#62;</h3>
+            <h3>&#60;skills /&#62;</h3>
             <ol>
                 <li>Html</li>
                 <li>CSS</li>
@@ -70,40 +69,61 @@
                 <li>React</li>
                 <li>Node.js</li>
             </ol>
-            <h3>&#60;Resume&#62;</h3>
         </div>
 
     </div>
     <div id="Projects">
-        <h1 class="title">&#60;Projects&#62;</h1>
+        <h1 class="title">&#60;Projects /&#62;</h1>
         <div class="Projects-content">
             <div class="project-card">
                 <img src="images/project1.jpg" alt="">
                 <div class="link-icons">
-                <a href="#" class="fa-solid fa-arrow-up-right-from-square"></a>
-                <a href="#" class="fa-brands fa-github"></a>
-                </div>                
+                    <a href="https://sgamarro.github.io/Colorado-Shot-New/"
+                        class="fa-solid fa-arrow-up-right-from-square" target="_blank"></a>
+                    <a href="https://github.com/sgamarro/Colorado-Shot-New" class="fa-brands fa-github"
+                        target="_blank"></a>
+                </div>
                 <h4>Colorado shot</h4>
             </div>
             <div class="project-card">
                 <img src="images/capturethemoments.png" alt="">
                 <div class="link-icons">
-                <a href="#" class="fa-solid fa-arrow-up-right-from-square"></a>
-                <a href="#" class="fa-brands fa-github"></a>
+                    <a href="http://www.capturethemomentsag.com/" class="fa-solid fa-arrow-up-right-from-square"
+                        target="_blank"></a>
+                    <a href="https://github.com/sgamarro/Capture-the-moments" class="fa-brands fa-github"
+                        target="_blank"></a>
                 </div>
                 <h4>Capture the Moments</h4>
             </div>
             <div class="project-card">
                 <img src="images/makg.png" alt="">
                 <div class="link-icons">
-                    <a href="#" class="fa-solid fa-arrow-up-right-from-square"></a>
-                    <a href="#" class="fa-brands fa-github"></a>
+                    <a href="https://makg-entertaintent.herokuapp.com/index.html"
+                        class="fa-solid fa-arrow-up-right-from-square" target="_blank"></a>
+                    <a href="https://github.com/sgamarro/makg-entretainment" class="fa-brands fa-github"
+                        target="_blank"></a>
                 </div>
                 <h4>Makg-entertaiment</h4>
             </div>
         </div>
     </div>
-
+    <div id="Contact">
+        <div class="contact-container">
+            <div class="contact-head">
+        <h1>&#60;Contact Me /&#62;</h1>
+        <p>Phone: (720)443-9429</p>
+        <p>Email: s.albertogamarro5@gmail.com</p>
+        </div>
+        <form action="POST" data-netlify="true">
+            <label for="name">Name</label>
+            <input name="name" type="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+</div>
 </body>
 
 </html>
