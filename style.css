@@ -10,25 +10,26 @@ body{
     display: flex;
    flex-direction: column;
     justify-content: center;
-    
     padding: 100px;
     background: linear-gradient(140deg, black 60%, rgb(25, 16, 49) 60%);
     background-attachment: fixed;
     margin-left: 50px;
+    overflow: hidden;
+
 }
 .description{
    text-align: center;
     font-size: 30px;
    color: rgb(255, 255, 255);
-  
+ 
 }
-
 .description p{
     margin-right: 20px;
 }
 .profile{
 display: flex;
 justify-content: center;
+
 
 }
 .profile img{
@@ -82,43 +83,78 @@ nav a:hover{
     font-family: 'Arizonia', cursive;
     font-size: 50px;
 }
+
 #About{
 height: 100vh;
 width:100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #020202;
 
 }
 .About-content{
-    margin:150px;
-    color:#f1f1ff;
+    color:#020202;
+    background-color: #efeff886;
+    padding: 27px;
+    padding-right:40px ;
+    border-radius:12px ;
+    margin-left: 20px;
+}
+.about-title{
+    font-size: 40px; 
+   text-align: center;
+    color: rgb(0, 0, 0);
 }
 .About-me{
-    font-size: 27px;
+    width: 400px;
+    font-size: 20px;
     text-align: center;
-    margin: 100px;
+}
+.skills{
+    background-color: #1615158a;
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    z-index: 10;
+}
+.skills ol{
+    list-style: none;
+}
+.skills h3{
+    text-align: center;
+}
+.skills ol{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .title{
-    font-family: 'Arizonia', cursive;
-    font-size: 90px; 
+   font-size: 40px; 
+   text-align: center;
     color: rgb(255, 255, 255);
 }
 #Projects{
 height: 100vh;
 width:100%;
-
 }
 .Projects-content{
-    margin:150px;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project-card h4{
+    text-align: center;
+    color: white;
 }
 .About-content h3{
     font-family: 'Nunito', sans-serif;
     font-size: 30px;
 }
-.About-content li{
-    line-height: 40px;
-    font-size: 25px;
-    list-style: none;
-}
 .Projects-content img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 300px;
+    border: 2px inset white;
+    border-radius: 12px;
 }
